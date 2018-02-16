@@ -1,0 +1,44 @@
+.header {
+  background: #2f8aeb;
+  background: -webkit-linear-gradient(to right, #2f8aeb, #bf3468);
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(-40%, #2f8aeb), to(#bf3468));
+  background: -webkit-linear-gradient(top left, #2f8aeb -40%, #bf3468);
+  background: -o-linear-gradient(top left, #2f8aeb -40%, #bf3468);
+  background: linear-gradient(to bottom right, #2f8aeb -40%, #bf3468);
+  height: 760px;
+  z-index: 2; }
+
+.test {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: auto;
+  z-index: 1; }
+
+.particles-js {
+  width: 100%;
+  height: 100%; }
+
+.mdl-button {
+  width: 220px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  font-size: 18px;
+  text-transform: none;
+  font-weight: 100;
+  height: 40px;
+  -webkit-border-radius: 0;
+          border-radius: 0; }
+
+.mdl-button-outline {
+  color: #ff4081;
+  background-color: transparent;
+  border: 2px solid #ff4081;
+  vertical-align: middle; }
+
+.quote {
+  background-color: #ff4081;
+  color: white;
+  font-size: 34px;
+  line-height: 1.2;
+  font-weight: 300; }

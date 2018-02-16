@@ -1,0 +1,116 @@
+.header {
+  background: -webkit-gradient(linear, left top, right bottom, from(#bf3468), color-stop(80%, rgba(0, 54, 157, 0.7))), url(../img/background.jpg) no-repeat;
+  background: -webkit-linear-gradient(top left, #bf3468, rgba(0, 54, 157, 0.7) 80%), url(../img/background.jpg) no-repeat;
+  background: -o-linear-gradient(top left, #bf3468, rgba(0, 54, 157, 0.7) 80%), url(../img/background.jpg) no-repeat;
+  background: linear-gradient(to bottom right, #bf3468, rgba(0, 54, 157, 0.7) 80%), url(../img/background.jpg) no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover; }
+
+.scroll {
+  font-size: 80px;
+  text-align: center;
+  padding-top: 25%; }
+
+.lead {
+  font-size: 18px; }
+
+.block2 {
+  background-color: white;
+  padding-bottom: 30px; }
+
+.block3 {
+  background: -webkit-gradient(linear, left top, right bottom, from(#bf3468), to(rgba(0, 54, 157, 0.7))), url(../img/background.jpg) no-repeat;
+  background: -webkit-linear-gradient(top left, #bf3468, rgba(0, 54, 157, 0.7) 100%), url(../img/background.jpg) no-repeat;
+  background: -o-linear-gradient(top left, #bf3468, rgba(0, 54, 157, 0.7) 100%), url(../img/background.jpg) no-repeat;
+  background: linear-gradient(to bottom right, #bf3468, rgba(0, 54, 157, 0.7) 100%), url(../img/background.jpg) no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
+  padding-bottom: 20px;
+  color: white; }
+
+.block4 {
+  background-color: white; }
+
+.block5 {
+  background: -webkit-gradient(linear, left top, right bottom, from(#bf3468), to(rgba(0, 54, 157, 0.7))), url(../img/background.jpg) no-repeat;
+  background: -webkit-linear-gradient(top left, #bf3468, rgba(0, 54, 157, 0.7) 100%), url(../img/background.jpg) no-repeat;
+  background: -o-linear-gradient(top left, #bf3468, rgba(0, 54, 157, 0.7) 100%), url(../img/background.jpg) no-repeat;
+  background: linear-gradient(to bottom right, #bf3468, rgba(0, 54, 157, 0.7) 100%), url(../img/background.jpg) no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
+  padding-bottom: 30px; }
+
+.block6 {
+  background-color: white; }
+
+.block8 {
+  background-color: white; }
+
+.sure {
+  color: white;
+  text-align: left; }
+
+.structure {
+  font-size: 24px; }
+
+.advantages {
+  background-color: white;
+  color: black;
+  padding: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.advantages-title {
+  padding-top: 20px;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.2; }
+
+.advantages-lead {
+  font-size: 14px;
+  padding-bottom: 20px; }
+
+.disciplines-title {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px; }
+
+.test {
+  margin-top: -45px;
+  background-color: #00acc1;
+  font-size: 40px;
+  color: white;
+  -webkit-border-radius: 50px 50px 50px 50px;
+          border-radius: 50px 50px 50px 50px;
+  padding: 12px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.mdl-chip {
+  background-color: transparent; }
+
+.mdl-button {
+  width: 220px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  font-size: 18px;
+  color: white;
+  text-transform: none;
+  font-weight: 100;
+  height: 40px;
+  -webkit-border-radius: 0;
+          border-radius: 0; }
+
+.quote {
+  background: -webkit-gradient(linear, left bottom, right top, from(#bf3468), to(rgba(0, 54, 157, 0.8)));
+  background: -webkit-linear-gradient(bottom left, #bf3468, rgba(0, 54, 157, 0.8) 100%);
+  background: -o-linear-gradient(bottom left, #bf3468, rgba(0, 54, 157, 0.8) 100%);
+  background: linear-gradient(to top right, #bf3468, rgba(0, 54, 157, 0.8) 100%);
+  color: whitesmoke; }
+
+.footer {
+  background-color: #0b0b0b;
+  color: white; }
+
+.mdl-dialog {
+  width: 50%; }
