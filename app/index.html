@@ -2,89 +2,102 @@
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Цифрові медіа</title>
     <link rel="stylesheet" href="css/material.min.css">
     <script src="js/material.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="fonts/lg.woff">
     <link rel="stylesheet" href="css/libs.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="css/lightgallery.min.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
 </head>
 
 <body>
 
     <!--This is Header-->
-    <div class="header" id="header">
-        <div class="mdl-grid">
-            <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone mdl-typography--text-center"></div>
-            <div class="mdl-cell mdl-cell--8-col mdl-typography--text-center">
-                <h2 class="mdl-typography--display-1 mdl-color-text--white">Logo</h2>
-                <h2 class="mdl-typography--display-3 mdl-color-text--white">Цифрові медіа</h2>
-                <h2 class="mdl-typography--display-1 mdl-color-text--white">Магістерська програма Інституту журналістики Київського національного університету Імені Тараса Шевченка</h2>
-                <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent mdl-js-ripple-effect">Реєстрація</button>
-                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">Зміст програми</button>
-                <h2 class="mdl-typography--display-1 mdl-color-text--white"><i class="material-icons scroll">expand_more</i></h2>
+    <section class="hero">
+        <div class="hero-text">
+            <div class="mdl-grid">
+                <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone mdl-typography--text-center"></div>
+                <div class="mdl-cell mdl-cell--8-col mdl-typography--text-center">
+                    <img class="logo" src="img/logo-mtmd-24.svg">
+                    <h2 class="mdl-typography--display-3 mdl-color-text--white">Цифрові медіа</h2>
+                    <h2 class="mdl-typography--display-1 mdl-color-text--white">Магістерська програма Інституту журналістики <br>Київського національного університету iмені Тараса Шевченка</h2>
+                    <a href="#registration"><button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent mdl-js-ripple-effect">Реєстрація</button></a>
+                    <a href="#structure"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">Зміст програми</button></a>
+                    <h2 class="mdl-typography--display-1 mdl-color-text--white"><img src="img/arrow-down.svg" style="width: 70px; padding-top: 15%"></h2>
+                </div>
+                <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone mdl-typography--text-center"></div>
             </div>
-            <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone mdl-typography--text-center"></div>
         </div>
+        <div class="video-overlay"></div>
+        <video class="hero-video" height="330" preload="" loop="" autoplay="" muted="muted">
+            <source src="img/retrowave.mp4" type="video/mp4">
+        </video>
+    </section>
+    <div class="paste-background">
+    <div class="paste" id="paste" style="">
+            <div class="mdl-grid">
+                <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone mdl-typography--text-center"></div>
+                <div class="mdl-cell mdl-cell--8-col">
+                    <img class="paste-icon" src="img/quotes-icon.svg">
+                    <div class="quote" style="padding-left: 60px;">У майбутньому на ринку залишиться два види компаній: ті, хто в інтернеті і ті, хто вийшов з бізнесу<br>— Білл Гейтс</div>
+                </div>
+            </div>
+    </div>
     </div>
     <!--End of Header-->
-
-    <!--This is Quote-->
-    <div class="quote" id="quote1">
-        <div class="demo-container mdl-grid">
-            <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
-            <div class="demo-content content mdl-cell mdl-cell--8-col">
-                <div class="mdl-grid">
-                    <div class="mdl-cell mdl-cell--12-col">
-                        <h2 class="mdl-typography--display-1">У майбутньому на ринку залишиться два види компаній: ті, хто в інтернеті і ті, хто вийшов з бізнесу</h2>
-                        <h5 class="mdl-typography--text-left mdl-typography--display-1 mdl-color-text--white">— Білл Гейтс</h5>
-                    </div>
-                </div>
-            <div class="mdl-typography--text-center mdl-typography--display-4 mdl-color-text--white"></div>
-            </div>
-        </div>
-    </div>
-    <!--End of Quote-->
 
     <!--This is Block 1-->
     <div class="block2" id="block2">
         <div class="mdl-grid">
             <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
-            <div class="mdl-cell mdl-cell--7-col">
-                <div class="mdl-cell mdl-cell--12-col">
-                    <h2 class="mdl-typography--text-left mdl-typography--display-3">Для кого</h2>
+                <div class="mdl-cell mdl-cell--11-col">
+                    <h2 class="mdl-typography--text-left mdl-typography--display-2">Для кого</h2>
                 </div>
-                <div class="mdl-cell mdl-cell--12-col">
+                <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+                <div class="mdl-cell mdl-cell--7-col">
                     <p class="mdl-typography--headline">Київський національний університет імені Тараса Шевченка оголошує відкриття унікальної магістерської програми з Digital Media та  запрошує на навчання бакалаврів і спеціалістів усіх напрямів підготовки</p>
                 </div>
-                <div class="mdl-cell mdl-cell--12-col">
+                <div class="mdl-cell mdl-cell--4-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+                <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+                <div class="mdl-cell mdl-cell--1-col">
+                    <div class="mdl-typography--text-center"><i class="material-icons test" style="margin: 0px;">format_shapes</i></div>
+                </div>
+                <div class="mdl-cell mdl-cell--6-col">
                     <p class="lead">Перша в Україні магістерська програма з цифрових медіа розрахована на творчих та амбітних людей, які прагнуть отримати вичерпні та актуальні знання у сфері мультимедійних технологій, зацікавлені у створенні цифрових проектів різних видів складності. </p>
                 </div>
-                <div class="mdl-cell mdl-cell--12-col">
+                <div class="mdl-cell mdl-cell--4-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+                <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+                <div class="mdl-cell mdl-cell--1-col">
+                    <div class="mdl-typography--text-center"><i class="material-icons test" style="margin: 0px;">format_shapes</i></div>
+                </div>
+                <div class="mdl-cell mdl-cell--6-col">
                     <p class="lead">Умовою закінчення магістерської програми є створення та запуск інноваційного проекту у сфері Digital Media. Так як, навчання має практичне спрямування, по завершенні програми кожен студент захищає власний  інноваційний медійний проект або стартап. Проекти можна виконувати індивідуально чи у складі невеликої групи.</p>
                 </div>
             </div>
-            <div class="mdl-cell mdl-cell--3-col">
-            </div>
-            <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
-        </div>
+            <div class="mdl-cell mdl-cell--4-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
     </div>
     <!--End of Block 1-->
 
     <!--This is Block 3-->
     <div class="block3" id="block3">
+        <div class="quote-background" style="padding-top: 1px; padding-bottom: 1px;">
         <div class="mdl-grid">
             <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
             <div class="mdl-cell mdl-cell--7-col">
                 <div class="mdl-cell mdl-cell--12-col">
-                    <h2 class="mdl-typography--text-left mdl-typography--display-3">Мета програми</h2>
+                    <h2 class="mdl-typography--text-left mdl-typography--display-2">Мета програми</h2>
                 </div>
                 <div class="mdl-cell mdl-cell--12-col">
                     <p class="mdl-typography--headline">Підготовати досвідчених конкурентоспроможних фахівців у сфері цифрових медіа з навичками використання інноваційних технологій для забезпечення медійного ринку профільними спеціалістами. Навчальна програма формує навички здійснювати професійну та інноваційну діяльність в галузі медіа, піару, корпоративних комунікацій та реклами.</p>
                 </div>
                 <div class="mdl-cell mdl-cell--12-col">
-                    <h2 class="mdl-typography--text-left mdl-typography--display-3">Переваги програми</h2>
+                    <h2 class="mdl-typography--text-left mdl-typography--display-2" style="padding-top: 15px;">Переваги програми</h2>
                 </div>
                 <div class="mdl-cell mdl-cell--12-col">
                     <p class="mdl-typography--headline">Магістр журналістики з цифрових медіа – вища ланка фахівця-медійника, конкурентноспроможний гуру, здатний започатковувати інноваційні проекти та виводити на новий рівень існуючі медіа.</p>
@@ -103,13 +116,13 @@
                         <div class="advantages">
                             <div class="mdl-typography--text-center"><i class="material-icons test">format_shapes</i></div>
                             <p class="advantages-title">Навчання<br>на практиці</p>
-                            <p class="advantages-lead">Навчання спрямоване на отримання практичних навичок. Студентські проекти монетизуються та продовжують життя після захисту диплому</p>
+                            <p class="advantages-lead">Навчання спрямоване на отримання практичних навичок. Студентські проекти продовжують життя після захисту диплому</p>
                         </div>
                     </div>
                     <div class="mdl-cell mdl-cell--3-col mdl-cell--12-col-phone mdl-typography--text-center">
                         <div class="advantages">
                             <div class="mdl-typography--text-center"><i class="material-icons test">format_shapes</i></div>
-                            <p class="advantages-title">Зручні умови навчання</p>
+                            <p class="advantages-title">Зручні умови <br>навчання</p>
                             <p class="advantages-lead">Навчання в аудиторіях, обладнаних сучасною технікою та інтернетом. Локації для коворкінгу та творчого відпочинку</p>
                         </div>
                     </div>
@@ -117,7 +130,7 @@
                         <div class="advantages">
                             <div class="mdl-typography--text-center"><i class="material-icons test">format_shapes</i></div>
                             <p class="advantages-title">Індивідуальний<br>і груповий коучинг</p>
-                            <p class="advantages-lead">Постійна співпраця з викладачами в індивідуальному й інтерактивному режимі. Виконання індивідуальних і групових проектів</p>
+                            <p class="advantages-lead">Постійна співпраця з викладачами в інтерактивному режимі. Виконання індивідуальних і групових проектів</p>
                         </div>
                     </div>
                 </div>
@@ -134,68 +147,79 @@
                     <div class="mdl-cell mdl-cell--3-col mdl-cell--12-col-phone mdl-typography--text-center">
                         <div class="advantages">
                             <div class="mdl-typography--text-center"><i class="material-icons test">format_shapes</i></div>
-                            <p class="advantages-title">Орієнтація на тренди ринку</p>
+                            <p class="advantages-title">Орієнтація <br>на тренди ринку</p>
                             <p class="advantages-lead">Однією із особливостей магістерської програми є навчання в межах ключових трендів медіасфери та цифрових комунікацій</p>
                         </div>
                     </div>
                     <div class="mdl-cell mdl-cell--3-col mdl-cell--12-col-phone mdl-typography--text-center">
                         <div class="advantages">
                             <div class="mdl-typography--text-center"><i class="material-icons test">format_shapes</i></div>
-                            <p class="advantages-title">Європейський підхід до навчання</p>
-                            <p class="advantages-lead">Модульна організація навчального процесу. Вибір дисциплін з тематичних блоків. Практичний досвід у кращих медіакомпаніях України</p>
+                            <p class="advantages-title">Європейський підхід <br>до навчання</p>
+                            <p class="advantages-lead">Модульна організація навчання. Вибір дисциплін з тематичних блоків. Практичний досвід у кращих медіакомпаніях України</p>
                         </div>
                     </div>
                     <div class="mdl-cell mdl-cell--3-col mdl-cell--12-col-phone mdl-typography--text-center">
                         <div class="advantages">
                             <div class="mdl-typography--text-center"><i class="material-icons test">format_shapes</i></div>
-                            <p class="advantages-title">Гарантії та сертифікація</p>
-                            <p class="advantages-lead">Диплом провідного університету країни, що має найвищий рейтинг серед університетів і цінується як українськими, так і іноземними роботодавцями</p>
+                            <p class="advantages-title">Гарантії <br>та сертифікація</p>
+                            <p class="advantages-lead">Диплом провідного університету країни, що має найвищий рейтинг, цінується українськими та іноземними роботодавцями</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        </div>
     </div>
     <!--End of Block 3-->
 
     <!--This is Quote-->
-    <div class="quote" id="quote2">
-        <div class="demo-container mdl-grid">
-            <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
-            <div class="demo-content content mdl-cell mdl-cell--8-col">
-                <div class="mdl-grid">
-                    <div class="mdl-cell mdl-cell--12-col">
-                        <h2 class="mdl-typography--display-1">Краще взяти і винайти завтрашній день, ніж переживати про те, що вчорашній був так собі</h2>
-                        <h5 class="mdl-typography--text-left mdl-typography--display-1 mdl-color-text--white">— Стів Джобс</h5>
-                    </div>
+    <div class="paste-background">
+        <div class="paste">
+            <div class="mdl-grid">
+                <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone mdl-typography--text-center"></div>
+                <div class="mdl-cell mdl-cell--8-col">
+                    <img class="paste-icon" src="img/quotes-icon.svg">
+                    <div class="quote" style="padding-left: 60px;">Краще взяти і винайти завтрашній день, ніж переживати про те, що вчорашній був так собі
+                        <br>— Стів Джобс</div>
                 </div>
-                <div class="mdl-typography--text-center mdl-typography--display-4 mdl-color-text--white"></div>
             </div>
         </div>
     </div>
     <!--End of Quote-->
 
     <!--This is Block 4-->
-    <div class="block4" id="block4">
+    <div class="block4" id="structure" style="padding-bottom: 30px;">
         <div class="mdl-grid">
             <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
-            <div class="mdl-cell mdl-cell--7-col">
-                <div class="mdl-cell mdl-cell--12-col">
-                    <h2 class="mdl-typography--text-left mdl-typography--display-3">Структура програми</h2>
+                <div class="mdl-cell mdl-cell--11-col">
+                    <h2 class="mdl-typography--text-left mdl-typography--display-2">Структура програми</h2>
                 </div>
-            </div>
+                    <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+                    <div class="mdl-cell mdl-cell--11-col"><i class="material-icons test" style="margin: 0px; font-size: 24px; padding: 4px;">done</i><span class="mask">90 кредитів ECTS.</span></div>
+                    <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+                    <div class="mdl-cell mdl-cell--11-col"><i class="material-icons test" style="margin: 0px; font-size: 24px; padding: 4px;">done</i><span class="mask">34 тижні теоретичних навчань.</span></div>
+                    <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+                    <div class="mdl-cell mdl-cell--11-col"><i class="material-icons test" style="margin: 0px; font-size: 24px; padding: 4px;">done</i><span class="mask">600 годин навчальних занять.</span></div>
+                    <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+                    <div class="mdl-cell mdl-cell--11-col"><i class="material-icons test" style="margin: 0px; font-size: 24px; padding: 4px;">done</i><span class="mask">3 блока вибіркових дисциплін.</span></div>
+                    <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+                    <div class="mdl-cell mdl-cell--11-col"><i class="material-icons test" style="margin: 0px; font-size: 24px; padding: 4px;">done</i><span class="mask">Ексклюзивні дисципліни від практиків цифрових медій.</span></div>
+                    <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+                    <div class="mdl-cell mdl-cell--11-col"><i class="material-icons test" style="margin: 0px; font-size: 24px; padding: 4px;">done</i><span class="mask">Стажування за професійною кваліфікацією в Digital Media.</span></div>
+                    <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+                    <div class="mdl-cell mdl-cell--11-col"><i class="material-icons test" style="margin: 0px; font-size: 24px; padding: 4px;">done</i><span class="mask">Підготовка та впровадження магістерського інноваційного проекту.</span></div>
         </div>
     </div>
     <!--End of Block4-->
 
     <!--This is Block 5-->
     <div class="block5" id="disciplines">
+        <div class="quote-background" style="padding-top: 1px; padding-bottom: 15px;">
         <div class="mdl-grid">
-            <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
-            <div class="mdl-cell mdl-cell--8-col mdl-color-text--white">
-                <h2 class="mdl-typography--text-center">Обов'язкові навчальні дисципліни</h2>
+            <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+            <div class="mdl-cell mdl-cell--11-col mdl-color-text--white">
+                <h2 class="mdl-typography--text-left mdl-typography--display-2">Обов'язкові навчальні дисципліни</h2>
             </div>
-            <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
             <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
             <div class="advantages mdl-cell mdl-cell--5-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-color-text--black">
                 <p class="disciplines-title">Кросмедійні стартапи та інвестиційні проекти</p>
@@ -228,11 +252,10 @@
                 <p class="disciplines-title">Теорія та історія соціальних комунікацій цифрових медіа</p>
             </div>
             <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
-            <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
-            <div class="mdl-cell mdl-cell--8-col mdl-color-text--white">
-                <h2 class="mdl-typography--text-center">Вибіркові блоки</h2>
+            <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+            <div class="mdl-cell mdl-cell--11-col mdl-color-text--white">
+                <h2 class="mdl-typography--text-left mdl-typography--display-2">Вибіркові блоки</h2>
             </div>
-            <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
             <div class="mdl-cell mdl-cell--4-col mdl-cell--12-col-phone mdl-typography--text-center">
                 <div class="advantages">
                     <div class="mdl-typography--text-center"><i class="material-icons test">filter_1</i></div>
@@ -255,15 +278,254 @@
                 </div>
             </div>
         </div>
+        </div>
     </div>
     <!--End of Block 5-->
+
+    <!--This is Block 6-->
+    <div class="mdl-grid mdl-typography--text-center block-padding">
+        <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+        <div class="mdl-cell mdl-cell--10-col mdl-color-text--black">
+            <h2 class="mdl-typography--text-left mdl-typography--display-2">Партнери та бази практики</h2>
+            <div class="sliders">
+                <div><img src="img/partners/1-novui-kanal.png" style="width: 200px; display: inline;"></div>
+                <div><img src="img/partners/2-chytomo.png" style="width: 200px; display: inline;"></div>
+                <div><img src="img/partners/3-edata.png" style="width: 200px; display: inline;"></div>
+                <div><img src="img/partners/4-radio-svoboda.png" style="width: 200px; display: inline; vertical-align: middle;"></div>
+                <div><img src="img/partners/5-centr-content-analis.png" style="width: 200px; display: inline; vertical-align: middle;"></div>
+                <div><img src="img/partners/6-pro.png" style="width: 200px; display: inline; vertical-align: middle;"></div>
+                <div><img src="img/partners/7-master_klass.png" style="width: 200px; display: inline; vertical-align: middle;"></div>
+                <div><img src="img/partners/8-unian.png" style="width: 200px; display: inline; vertical-align: middle;"></div>
+            </div>
+        </div>
+        <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+    </div>
+    <!--End of Block 6-->
+
+    <!--This is Quote-->
+    <div class="paste-background">
+        <div class="paste">
+            <div class="mdl-grid">
+                <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone mdl-typography--text-center"></div>
+                <div class="mdl-cell mdl-cell--8-col">
+                    <img class="paste-icon" src="img/quotes-icon.svg">
+                    <div class="quote" style="padding-left: 60px;">Ми повинні бути впевнені, що наш досвід доступний тим, хто його потребує. Це і є наша основна мета.
+                        <br>— Емі Джонсон, BBVA</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End of Quote-->
+
+    <!--This is Block 7-->
+    <div class="block7 block-padding">
+        <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+            <div class="mdl-cell mdl-cell--7-col">
+                <h2 class="mdl-typography--text-left mdl-typography--display-2">Професії за результатами</h2>
+                <p class="mdl-typography--headline">Освоєння програми дозволяє обіймати робочі місця в медійних організаціях, інтернет-виданнях, інформаційних агенціях, редакціях газет і журналів, у відділах контент-маркетингу бізнесових організацій.</p>
+                <p class="mdl-typography--headline">Фахівець з цифрових медіа здатний обіймати керівні посади в медіаорганізаціях різних видів діяльності та форм власності:</p>
+            </div>
+            <div class="mdl-cell mdl-cell--4-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+            <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+            <div class="mdl-cell mdl-cell--11-col"><i class="material-icons test" style="margin: 0px; font-size: 24px; padding: 4px;">done</i><span style="font-size: 28px; padding-left: 20px;">Керівник медіапроекту.</span></div>
+            <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+            <div class="mdl-cell mdl-cell--11-col"><i class="material-icons test" style="margin: 0px; font-size: 24px; padding: 4px;">done</i><span style="font-size: 28px; padding-left: 20px;">Редактор мультимедійних видань.</span></div>
+            <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+            <div class="mdl-cell mdl-cell--11-col"><i class="material-icons test" style="margin: 0px; font-size: 24px; padding: 4px;">done</i><span style="font-size: 28px; padding-left: 20px;">Журналіст мультимедійних видань.</span></div>
+            <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+            <div class="mdl-cell mdl-cell--11-col"><i class="material-icons test" style="margin: 0px; font-size: 24px; padding: 4px;">done</i><span style="font-size: 28px; padding-left: 20px;">Аналітик комунікацій.</span></div>
+            <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+            <div class="mdl-cell mdl-cell--11-col"><i class="material-icons test" style="margin: 0px; font-size: 24px; padding: 4px;">done</i><span style="font-size: 28px; padding-left: 20px;">Контент-менеджер, контент-редактор.</span></div>
+            <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+            <div class="mdl-cell mdl-cell--11-col"><i class="material-icons test" style="margin: 0px; font-size: 24px; padding: 4px;">done</i><span style="font-size: 28px; padding-left: 20px;">UI/UX-дизайнер.</span></div>
+            <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+            <div class="mdl-cell mdl-cell--11-col"><i class="material-icons test" style="margin: 0px; font-size: 24px; padding: 4px;">done</i><span style="font-size: 28px; padding-left: 20px;">Фахівець із SEO i SMM.</span></div>
+            <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+            <div class="mdl-cell mdl-cell--11-col"><i class="material-icons test" style="margin: 0px; font-size: 24px; padding: 4px;">done</i><span style="font-size: 28px; padding-left: 20px;">Моушн-дизайнер.</span></div>
+            <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+            <div class="mdl-cell mdl-cell--11-col"><i class="material-icons test" style="margin: 0px; font-size: 24px; padding: 4px;">done</i><span style="font-size: 28px; padding-left: 20px;">Медіадизайнер.</span></div>
+        </div>
+    </div>
+    <!--End of Block7-->
+
+    <!--This is Quote-->
+    <div class="paste-background">
+        <div class="paste">
+            <div class="mdl-grid">
+                <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone mdl-typography--text-center"></div>
+                <div class="mdl-cell mdl-cell--8-col">
+                    <img class="paste-icon-danger" src="img/attention-icon-33.svg">
+                    <div class="quote" style="padding-left: 60px;">Окремим рішенням Екзаменаційної комісії випускникові може бути присвоєна професійна кваліфікація «Редактор мультимедійних видань засобів масової комунікації»</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End of Quote-->
+
+    <!--This is Block 8-->
+    <div class="block8 block-padding">
+        <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+            <div class="mdl-cell mdl-cell--7-col">
+                <h2 class="mdl-typography--text-left mdl-typography--display-2">Умови навчання</h2>
+                <p class="mdl-typography--headline">Навчання відбуватиметься у дружній сім’ї Інституту журналістики. Комфортні аудиторії, наявність техніки для роботи, їдальня, бібліотека  —  все це робить навчання цікавішим та приємнішим.</p>
+                </div>
+            <div class="mdl-cell mdl-cell--4-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+        </div>
+        <div class="mdl-grid mdl-typography--text-center">
+        <div id="animated-thumbnials">
+            <a href="img/gallery/ij-1.png">
+                <img src="img/gallery/ij-1.png" class="mdl-cell--3-col" style="padding-bottom: 4px;" />
+            </a>
+            <a href="img/gallery/ij-2.png" class="mdl-cell--2-col">
+                <img src="img/gallery/ij-2.png" class="mdl-cell--3-col" style="padding-bottom: 4px;" />
+            </a>
+            <a href="img/gallery/ij-3.png">
+                <img src="img/gallery/ij-3.png" class="mdl-cell--3-col" style="padding-bottom: 4px;"/>
+            </a>
+            <a href="img/gallery/ij-4.png">
+                <img src="img/gallery/ij-4.png" class="mdl-cell--3-col" style="padding-bottom: 4px;"/>
+            </a>
+            <a href="img/gallery/ij-5.png">
+                <img src="img/gallery/ij-5.png" class="mdl-cell--3-col" style="padding-bottom: 4px;"/>
+            </a>
+            <a href="img/gallery/ij-6.png">
+                <img src="img/gallery/ij-6.png" class="mdl-cell--3-col" style="padding-bottom: 4px;"/>
+            </a>
+            <a href="img/gallery/knu-1.png">
+                <img src="img/gallery/knu-1.png" class="mdl-cell--3-col" style="padding-bottom: 4px;"/>
+            </a>
+            <a href="img/gallery/knu-2.png">
+                <img src="img/gallery/knu-2.png" class="mdl-cell--3-col" style="padding-bottom: 4px;"/>
+            </a>
+        </div>
+    </div>
+    </div>
+    <!--End of Block8-->
+
+    <!--This is Block 9-->
+    <div class="block9 block-padding" id="registration">
+        <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+            <div class="mdl-cell mdl-cell--7-col">
+                <h2 class="mdl-typography--text-left mdl-typography--display-2">Реєстрація</h2>
+                <p class="mdl-typography--headline">Дякуємо, що обрали магістерський напрямок «Цифрові медіа» (Digital media) в Інституті журналістики Київського національного університету імені Тараса Шевченка. Для того, щоб отримати більш детальну інформацію та вчасно отримувати повідомлення щодо умов вступу зареєструйтеся, будь ласка.</p>
+            <button id="show-dialog" type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent mdl-js-ripple-effect">Зареєструватися</button>
+            <dialog class="mdl-dialog">
+                <div class="mdl-dialog__content">
+                    <script type="text/javascript">
+                        if (typeof MauticSDKLoaded == 'undefined') {
+                            var MauticSDKLoaded = true;
+                            var head            = document.getElementsByTagName('head')[0];
+                            var script          = document.createElement('script');
+                            script.type         = 'text/javascript';
+                            script.src          = 'http://mautic.b2b-insight.com/media/js/mautic-form.js';
+                            script.onload       = function() {
+                                MauticSDK.onLoad();
+                            };
+                            head.appendChild(script);
+                            var MauticDomain = 'http://mautic.b2b-insight.com';
+                            var MauticLang   = {
+                                'submittingMessage': "Please wait..."
+                            }
+                        }
+                    </script>
+                    <div id="mauticform_wrapper_digitalmedia" class="mauticform_wrapper">
+                        <form autocomplete="false" role="form" method="post" action="https://mautic.b2b-insight.com/form/submit?formId=3" id="mauticform_digitalmedia"  data-mautic-form="digitalmedia" enctype="multipart/form-data">
+                            <div class="mauticform-error" id="mauticform_digitalmedia_error"></div>
+                            <div class="mauticform-message" id="mauticform_digitalmedia_message"></div>
+                            <div class="mauticform-innerform">
+                                <div class="mauticform-page-wrapper mauticform-page-1" data-mautic-form-page="1">
+                                    <div id="mauticform_digitalmedia_elektronna_adresa"  class="mauticform-row mauticform-email mauticform-field-1">
+                                        <label id="mauticform_label_digitalmedia_elektronna_adresa" for="mauticform_input_digitalmedia_elektronna_adresa" class="mauticform-label">Електронна адреса</label>
+                                        <input id="mauticform_input_digitalmedia_elektronna_adresa" name="mauticform[elektronna_adresa]" value="" class="mauticform-input" type="email" />
+                                        <span class="mauticform-errormsg" style="display: none;"></span>
+                                    </div>
+                                    <div id="mauticform_digitalmedia_prizvise"  class="mauticform-row mauticform-text mauticform-field-2">
+                                        <label id="mauticform_label_digitalmedia_prizvise" for="mauticform_input_digitalmedia_prizvise" class="mauticform-label">Прізвище</label>
+                                        <input id="mauticform_input_digitalmedia_prizvise" name="mauticform[prizvise]" value="" class="mauticform-input" type="text" />
+                                        <span class="mauticform-errormsg" style="display: none;"></span>
+                                    </div>
+                                    <div id="mauticform_digitalmedia_ima"  class="mauticform-row mauticform-text mauticform-field-3">
+                                        <label id="mauticform_label_digitalmedia_ima" for="mauticform_input_digitalmedia_ima" class="mauticform-label">Ім'я</label>
+                                        <input id="mauticform_input_digitalmedia_ima" name="mauticform[ima]" value="" class="mauticform-input" type="text" />
+                                        <span class="mauticform-errormsg" style="display: none;"></span>
+                                    </div>
+                                    <div id="mauticform_digitalmedia_po_batkovi"  class="mauticform-row mauticform-text mauticform-field-4">
+                                        <label id="mauticform_label_digitalmedia_po_batkovi" for="mauticform_input_digitalmedia_po_batkovi" class="mauticform-label">По батькові</label>
+                                        <input id="mauticform_input_digitalmedia_po_batkovi" name="mauticform[po_batkovi]" value="" class="mauticform-input" type="text" />
+                                        <span class="mauticform-errormsg" style="display: none;"></span>
+                                    </div>
+                                    <div id="mauticform_digitalmedia_telefon"  class="mauticform-row mauticform-tel mauticform-field-5">
+                                        <label id="mauticform_label_digitalmedia_telefon" for="mauticform_input_digitalmedia_telefon" class="mauticform-label">Телефон</label>
+                                        <input id="mauticform_input_digitalmedia_telefon" name="mauticform[telefon]" value="" class="mauticform-input" type="tel" />
+                                        <span class="mauticform-errormsg" style="display: none;"></span>
+                                    </div>
+                                    <div id="mauticform_digitalmedia_osvita_diplom_bakalavra_n"  class="mauticform-row mauticform-text mauticform-field-6">
+                                        <label id="mauticform_label_digitalmedia_osvita_diplom_bakalavra_n" for="mauticform_input_digitalmedia_osvita_diplom_bakalavra_n" class="mauticform-label">Освіта (диплом бакалавра): навчальний заклад, спеціальність</label>
+                                        <textarea id="mauticform_input_digitalmedia_osvita_diplom_bakalavra_n" name="mauticform[osvita_diplom_bakalavra_n]" class="mauticform-textarea"></textarea>
+                                        <span class="mauticform-errormsg" style="display: none;"></span>
+                                    </div>
+                                    <div id="mauticform_digitalmedia_vasa_motivacia_sodo_vstup"  class="mauticform-row mauticform-text mauticform-field-7">
+                                        <label id="mauticform_label_digitalmedia_vasa_motivacia_sodo_vstup" for="mauticform_input_digitalmedia_vasa_motivacia_sodo_vstup" class="mauticform-label">Ваша мотивація щодо вступу на магістерський напрямок "Цифрові медіа" та очікувані результати від навчання</label>
+                                        <textarea id="mauticform_input_digitalmedia_vasa_motivacia_sodo_vstup" name="mauticform[vasa_motivacia_sodo_vstup]" class="mauticform-textarea"></textarea>
+                                        <span class="mauticform-errormsg" style="display: none;"></span>
+                                    </div>
+                                    <div id="mauticform_digitalmedia_ci_bazaete_vi_otrimuvati"  class="mauticform-row mauticform-radiogrp mauticform-field-8">
+                                        <label  class="mauticform-label" for="mauticform_radiogrp_radio_ci_bazaete_vi_otrimuvati_Tak1">Чи бажаєте ви отримувати нову і актуальну інформацію щодо магістерського напрямку "Цифрові медіа"</label>
+                                        <div class="mauticform-radiogrp-row">
+                                            <label id="mauticform_radiogrp_label_ci_bazaete_vi_otrimuvati_true0" for="mauticform_radiogrp_radio_ci_bazaete_vi_otrimuvati_true0"  class="mauticform-radiogrp-label">
+                                                <input  name="mauticform[ci_bazaete_vi_otrimuvati]" class="mauticform-radiogrp-radio" name="mauticform[ci_bazaete_vi_otrimuvati]" id="mauticform_radiogrp_radio_ci_bazaete_vi_otrimuvati_true0" type="radio" value="true" />
+                                                Так
+                                            </label>
+                                        </div>
+                                        <div class="mauticform-radiogrp-row">
+                                            <label id="mauticform_radiogrp_label_ci_bazaete_vi_otrimuvati_false1" for="mauticform_radiogrp_radio_ci_bazaete_vi_otrimuvati_false1"  class="mauticform-radiogrp-label">
+                                                <input  name="mauticform[ci_bazaete_vi_otrimuvati]" class="mauticform-radiogrp-radio" name="mauticform[ci_bazaete_vi_otrimuvati]" id="mauticform_radiogrp_radio_ci_bazaete_vi_otrimuvati_false1" type="radio" value="false" />
+                                                Ні
+                                            </label>
+                                        </div>
+                                        <span class="mauticform-errormsg" style="display: none;"></span>
+                                    </div>
+                                    <div id="mauticform_digitalmedia_nadislati"  class="mauticform-row mauticform-button-wrapper mauticform-field-9">
+                                        <button type="button" class="mdl-button close">Пізніше</button>
+                                        <button type="submit" name="mauticform[nadislati]" id="mauticform_input_digitalmedia_nadislati" name="mauticform[nadislati]" value="" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent mdl-js-ripple-effect" value="1">Надіслати</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <input type="hidden" name="mauticform[formId]" id="mauticform_digitalmedia_id" value="3"/>
+                            <input type="hidden" name="mauticform[return]" id="mauticform_digitalmedia_return" value=""/>
+                            <input type="hidden" name="mauticform[formName]" id="mauticform_digitalmedia_name" value="digitalmedia"/>
+                        </form>
+                    </div>
+                </div>
+            </dialog>
+            <script>
+                var dialog = document.querySelector('dialog');
+                var showDialogButton = document.querySelector('#show-dialog');
+                if (! dialog.showModal) {
+                    dialogPolyfill.registerDialog(dialog);
+                }
+                showDialogButton.addEventListener('click', function() {
+                    dialog.showModal();
+                });
+                dialog.querySelector('.close').addEventListener('click', function() {
+                    dialog.close();
+                });
+            </script>
+        </div>
+        </div>
+
+    </div>
+    <!--End of Block9-->
 
     <!--This is Footer-->
     <div class="footer" id="footer">
         <div class="mdl-grid">
             <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
             <div class="demo-content content mdl-cell mdl-cell--10-col">
-                <p>©  2018 «Company». All rights reserved.</p>
+                <p>©  2018 «Інститут журналістики Київського національного університету імені Тараса Шевченка». All rights reserved.</p>
             </div>
             <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
         </div>
@@ -273,7 +535,58 @@
     <!--This is Scripts-->
     <script src="js/libs.min.js"></script>
     <script src="js/common.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/lightgallery.min.js"></script>
     <!--End of Scripts-->
+
+    <!--This is Partners Script-->
+    <script>
+        $('.sliders').slick({
+            dots: false,
+            infinite: true,
+            autoplay: true,
+            autoplaySpeed: 9000,
+            speed: 300,
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+    </script>
+    <!--End of Partners Scripts-->
+
+    <!--This is Gallery Script-->
+    <script>
+        lightGallery(document.getElementById('animated-thumbnials'), {
+            thumbnail:true,
+            animateThumb: true,
+            showThumbByDefault: true
+        });
+    </script>
+    <!--End of Gallery Scripts-->
 
 </body>
 </html>
