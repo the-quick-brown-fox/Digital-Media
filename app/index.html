@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="fonts/lg.woff">
     <link rel="stylesheet" href="css/libs.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/cssanimation.css">
     <link rel="stylesheet" type="text/css" href="css/slick.css"/>
     <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
     <link rel="stylesheet" type="text/css" href="css/lightgallery.min.css"/>
@@ -29,7 +30,7 @@
                     <h2 class="mdl-typography--display-1 mdl-color-text--white">Магістерська програма Інституту журналістики <br>Київського національного університету iмені Тараса Шевченка</h2>
                     <a href="#registration"><button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent mdl-js-ripple-effect">Реєстрація</button></a>
                     <a href="#structure"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">Зміст програми</button></a>
-                    <div class="cssanimation hu__hu__"><h2 class="mdl-typography--display-1 mdl-color-text--white"><img src="img/arrow-down.svg" class="down mdl-cell--hide-tablet mdl-cell--hide-phone"></h2></div>
+                    <a href="#paste"><div class="cssanimation hu__hu__"><h2 class="mdl-typography--display-1 mdl-color-text--white"><img src="img/arrow-down.svg" class="down mdl-cell--hide-tablet mdl-cell--hide-phone"></h2></div></a>
                     <style>
                         .hu__hu__ { animation: hu__hu__ infinite 2s ease-in-out }
                         @keyframes hu__hu__ {
@@ -42,16 +43,16 @@
         </div>
         <div class="video-overlay"></div>
         <video class="hero-video" height="330" preload="" loop="" autoplay="" muted="muted">
-            <source src="img/retrowave06.mp4" type="video/mp4">
+            <source src="img/retrowave.mp4" type="video/mp4">
         </video>
     </section>
     <div class="paste-background">
     <div class="paste" id="paste" style="">
             <div class="mdl-grid">
                 <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone mdl-typography--text-center"></div>
-                <div class="mdl-cell mdl-cell--8-col">
+                <div class="mdl-cell mdl-cell--8-col" data-scrolly-down="blurInTop">
                     <img class="paste-icon mdl-cell--hide-tablet mdl-cell--hide-phone" src="img/quotes-icon.svg">
-                    <div class="quote" style="padding-left: 60px;">У майбутньому на ринку залишиться два види компаній: ті, хто в інтернеті і ті, хто вийшов з бізнесу<br>— Білл Гейтс</div>
+                    <div class="quote" style="padding-left: 60px;">У майбутньому на ринку залишиться два види компаній: ті, які в інтернеті і ті, які вийшли з бізнесу<br>— Білл Гейтс</div>
                 </div>
             </div>
     </div>
@@ -62,31 +63,18 @@
     <div class="block2" id="block2">
         <div class="mdl-grid">
             <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
-                <div class="mdl-cell mdl-cell--11-col">
-                    <h2 class="mdl-typography--text-left mdl-typography--display-2">Для кого</h2>
-                </div>
-                <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
-                <div class="mdl-cell mdl-cell--7-col">
-                    <p class="mdl-typography--headline">Київський національний університет імені Тараса Шевченка оголошує відкриття унікальної магістерської програми з Digital Media та  запрошує на навчання бакалаврів і спеціалістів усіх напрямів підготовки.</p>
-                </div>
-                <div class="mdl-cell mdl-cell--4-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
-                <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
-                <div class="mdl-cell mdl-cell--1-col">
-                    <div class="mdl-typography--text-center"><i class="material-icons test" style="margin: 0px;">school</i></div>
-                </div>
-                <div class="mdl-cell mdl-cell--6-col">
-                    <p class="lead">Перша в Україні магістерська програма з цифрових медіа розрахована на творчих та амбітних людей, які прагнуть отримати вичерпні та актуальні знання у сфері мультимедійних технологій, зацікавлені у створенні цифрових проектів різних видів складності. </p>
-                </div>
-                <div class="mdl-cell mdl-cell--4-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
-                <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
-                <div class="mdl-cell mdl-cell--1-col">
-                    <div class="mdl-typography--text-center"><i class="material-icons test" style="margin: 0px;">business</i></div>
-                </div>
-                <div class="mdl-cell mdl-cell--6-col">
-                    <p class="lead">Умовою закінчення магістерської програми є створення та запуск інноваційного проекту у сфері Digital Media. Так як, навчання має практичне спрямування, по завершенні програми кожен студент захищає власний  інноваційний медійний проект або стартап. Проекти можна виконувати індивідуально чи у складі невеликої групи.</p>
-                </div>
+            <div class="mdl-cell mdl-cell--6-col">
+                <h2 class="mdl-typography--text-left mdl-typography--display-2">Для кого</h2>
+                <p class="mdl-typography--headline" style="margin-bottom: 50px;">Київський національний університет імені Тараса Шевченка оголошує відкриття унікальної магістерської програми з Digital Media та  запрошує на навчання бакалаврів і спеціалістів усіх напрямів підготовки.</p>
+                <div class="mdl-typography--text-left"><i class="material-icons test" style="margin: 0 20px 45px 0; float: left">school</i></div>
+                <p class="lead" style="vertical-align: middle;">Перша в Україні магістерська програма з цифрових медіа розрахована на творчих та амбітних людей, які прагнуть отримати вичерпні та актуальні знання у сфері мультимедійних технологій, зацікавлені у створенні цифрових проектів різних видів складності. </p>
+                <div class="mdl-typography--text-left"><i class="material-icons test" style="margin: 0 20px 45px 0; float: left;">business</i></div>
+                <p class="lead">Умовою закінчення магістерської програми є створення та запуск інноваційного проекту у сфері Digital Media. Навчання має практичне спрямування, по завершенні програми кожен студент захищає власний  інноваційний медійний проект або стартап. Проекти можна виконувати індивідуально чи у складі невеликої групи.</p>
             </div>
-            <div class="mdl-cell mdl-cell--4-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+            <div class="mdl-cell mdl-cell--5-col mdl-typography--text-center">
+                <img src="img/gallery/ij-1.png" class="mdl-cell--12-col" style="padding: 10% 0;">
+            </div>
+        </div>
     </div>
     <!--End of Block 1-->
 
@@ -112,28 +100,28 @@
             <div class="demo-content content mdl-cell mdl-cell--12-col">
                 <div class="mdl-grid">
                     <div class="mdl-cell mdl-cell--3-col mdl-cell--12-col-phone mdl-typography--text-center">
-                        <div class="advantages">
+                        <div class="advantages" data-scrolly-down="blurInTop">
                             <div class="mdl-typography--text-center"><i class="material-icons test">supervisor_account</i></div>
                             <p class="advantages-title">Досвідчені<br>викладачі</p>
                             <p class="advantages-lead">Навчальні курси викладають практикуючі висококваліфіковані фахівці та найвідоміші дослідники цифрових медіа в Україні</p>
                         </div>
                     </div>
                     <div class="mdl-cell mdl-cell--3-col mdl-cell--12-col-phone mdl-typography--text-center">
-                        <div class="advantages">
+                        <div class="advantages" data-scrolly-down="blurInTop">
                             <div class="mdl-typography--text-center"><i class="material-icons test">build</i></div>
                             <p class="advantages-title">Навчання<br>на практиці</p>
                             <p class="advantages-lead">Навчання спрямоване на отримання практичних навичок. Студентські проекти продовжують життя після захисту диплому</p>
                         </div>
                     </div>
                     <div class="mdl-cell mdl-cell--3-col mdl-cell--12-col-phone mdl-typography--text-center">
-                        <div class="advantages">
+                        <div class="advantages" data-scrolly-down="blurInTop">
                             <div class="mdl-typography--text-center"><i class="material-icons test">weekend</i></div>
                             <p class="advantages-title">Зручні умови <br>навчання</p>
                             <p class="advantages-lead">Навчання в аудиторіях, обладнаних сучасною технікою та інтернетом. Локації для коворкінгу та творчого відпочинку</p>
                         </div>
                     </div>
                     <div class="mdl-cell mdl-cell--3-col mdl-cell--12-col-phone mdl-typography--text-center">
-                        <div class="advantages">
+                        <div class="advantages" data-scrolly-down="blurInTop">
                             <div class="mdl-typography--text-center"><i class="material-icons test">business_center</i></div>
                             <p class="advantages-title">Індивідуальний<br>коучинг</p>
                             <p class="advantages-lead">Постійна співпраця з викладачами в інтерактивному режимі. Виконання індивідуальних і групових проектів</p>
@@ -144,28 +132,28 @@
             <div class="demo-content content mdl-cell mdl-cell--12-col">
                 <div class="mdl-grid">
                     <div class="mdl-cell mdl-cell--3-col mdl-cell--12-col-phone mdl-typography--text-center">
-                        <div class="advantages">
+                        <div class="advantages" data-scrolly-down="blurInTop">
                             <div class="mdl-typography--text-center"><i class="material-icons test">cast</i></div>
                             <p class="advantages-title">Онлайн-підтримка навчання</p>
                             <p class="advantages-lead">Сучасні технології використовуються в навчанні: вебінари, презентації, інфографіка, онлайн-посібники, онлайн-тестування</p>
                         </div>
                     </div>
                     <div class="mdl-cell mdl-cell--3-col mdl-cell--12-col-phone mdl-typography--text-center">
-                        <div class="advantages">
+                        <div class="advantages" data-scrolly-down="blurInTop">
                             <div class="mdl-typography--text-center"><i class="material-icons test">equalizer</i></div>
                             <p class="advantages-title">Орієнтація <br>на ринок</p>
                             <p class="advantages-lead">Однією із особливостей магістерської програми є навчання в межах ключових трендів медіасфери та цифрових комунікацій</p>
                         </div>
                     </div>
                     <div class="mdl-cell mdl-cell--3-col mdl-cell--12-col-phone mdl-typography--text-center">
-                        <div class="advantages">
+                        <div class="advantages" data-scrolly-down="blurInTop">
                             <div class="mdl-typography--text-center"><i class="material-icons test">euro_symbol</i></div>
                             <p class="advantages-title">Європейський <br>підхід</p>
                             <p class="advantages-lead">Модульна організація навчання. Вибір дисциплін з тематичних блоків. Практичний досвід у кращих медіакомпаніях України</p>
                         </div>
                     </div>
                     <div class="mdl-cell mdl-cell--3-col mdl-cell--12-col-phone mdl-typography--text-center">
-                        <div class="advantages">
+                        <div class="advantages" data-scrolly-down="blurInTop">
                             <div class="mdl-typography--text-center"><i class="material-icons test">content_paste</i></div>
                             <p class="advantages-title">Гарантії <br>та сертифікація</p>
                             <p class="advantages-lead">Диплом провідного університету країни, що має найвищий рейтинг, цінується українськими та іноземними роботодавцями</p>
@@ -183,7 +171,7 @@
         <div class="paste">
             <div class="mdl-grid">
                 <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone mdl-typography--text-center"></div>
-                <div class="mdl-cell mdl-cell--8-col">
+                <div class="mdl-cell mdl-cell--8-col" data-scrolly-down="blurInTop">
                     <img class="paste-icon mdl-cell--hide-tablet mdl-cell--hide-phone" src="img/quotes-icon.svg">
                     <div class="quote" style="padding-left: 60px;">Краще взяти і винайти завтрашній день, ніж переживати про те, що вчорашній був так собі
                         <br>— Стів Джобс</div>
@@ -234,34 +222,34 @@
                 <h2 class="mdl-typography--text-left mdl-typography--display-2">Обов'язкові навчальні дисципліни</h2>
             </div>
             <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
-            <div class="advantages-d mdl-cell mdl-cell--5-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-color-text--black">
+            <div class="advantages-d mdl-cell mdl-cell--5-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-color-text--black" data-scrolly-down="blurInRight">
                 <p class="disciplines-title">Кросмедійні стартапи та інвестиційні проекти</p>
             </div>
-            <div class="advantages-d mdl-cell mdl-cell--5-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-color-text--black">
+            <div class="advantages-d mdl-cell mdl-cell--5-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-color-text--black" data-scrolly-down="blurInLeft">
                 <p class="disciplines-title">Управління мультимедійними проектами в цифровому середовищі</p>
             </div>
             <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
             <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
-            <div class="advantages-d mdl-cell mdl-cell--5-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-color-text--black">
+            <div class="advantages-d mdl-cell mdl-cell--5-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-color-text--black" data-scrolly-down="blurInRight">
                 <p class="disciplines-title">Аналітика цифрових медіа і соцмереж</p>
             </div>
-            <div class="advantages-d mdl-cell mdl-cell--5-col mdl-cell--12-col-phone mdl-color-text--black">
+            <div class="advantages-d mdl-cell mdl-cell--5-col mdl-cell--12-col-phone mdl-color-text--black" data-scrolly-down="blurInLeft">
                 <p class="disciplines-title">Мультимедійний контент</p>
             </div>
             <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
             <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
-            <div class="advantages-d mdl-cell mdl-cell--5-col mdl-cell--12-col-phone mdl-color-text--black">
+            <div class="advantages-d mdl-cell mdl-cell--5-col mdl-cell--12-col-phone mdl-color-text--black" data-scrolly-down="blurInRight">
                 <p class="disciplines-title">Контент-маркетинг у цифрових медіа</p>
             </div>
-            <div class="advantages-d mdl-cell mdl-cell--5-col mdl-cell--12-col-phone mdl-color-text--black">
+            <div class="advantages-d mdl-cell mdl-cell--5-col mdl-cell--12-col-phone mdl-color-text--black" data-scrolly-down="blurInLeft">
                 <p class="disciplines-title">Професійна та корпоративна етика цифрових медіа</p>
             </div>
             <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
             <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
-            <div class="advantages-d mdl-cell mdl-cell--5-col mdl-cell--12-col-phone mdl-color-text--black">
+            <div class="advantages-d mdl-cell mdl-cell--5-col mdl-cell--12-col-phone mdl-color-text--black" data-scrolly-down="blurInRight">
                 <p class="disciplines-title">Медіадизайн</p>
             </div>
-            <div class="advantages-d mdl-cell mdl-cell--5-col mdl-cell--12-col-phone mdl-color-text--black">
+            <div class="advantages-d mdl-cell mdl-cell--5-col mdl-cell--12-col-phone mdl-color-text--black" data-scrolly-down="blurInLeft">
                 <p class="disciplines-title">Теорія та історія соціальних комунікацій цифрових медіа</p>
             </div>
             <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
@@ -270,21 +258,21 @@
                 <h2 class="mdl-typography--text-left mdl-typography--display-2">Вибіркові блоки</h2>
             </div>
             <div class="mdl-cell mdl-cell--4-col mdl-cell--12-col-phone mdl-typography--text-center">
-                <div class="advantages">
+                <div class="advantages" data-scrolly-down="blurInTop">
                     <div class="mdl-typography--text-center"><i class="material-icons test">filter_1</i></div>
                     <p class="advantages-title">Журналістські майстерні</p>
                     <p class="advantages-lead">Проектування та редагування мультимедійних проектів і онлайн-медіа, відеомонтаж, мультимедійний сторітелінг, медійна графіка</p>
                 </div>
             </div>
             <div class="mdl-cell mdl-cell--4-col mdl-cell--12-col-phone mdl-typography--text-center">
-                <div class="advantages">
+                <div class="advantages" data-scrolly-down="blurInTop">
                     <div class="mdl-typography--text-center"><i class="material-icons test">filter_2</i></div>
                     <p class="advantages-title">Тренди сучасної науки</p>
                     <p class="advantages-lead">Інновації в медіакомунікаціях, візуалізація даних у в журналістських дослідженнях, краудсорсинг у діяльності журналіста</p>
                 </div>
             </div>
             <div class="mdl-cell mdl-cell--4-col mdl-cell--12-col-phone mdl-typography--text-center">
-                <div class="advantages">
+                <div class="advantages" data-scrolly-down="blurInTop">
                     <div class="mdl-typography--text-center"><i class="material-icons test">filter_3</i></div>
                     <p class="advantages-title">Професійні тренди</p>
                     <p class="advantages-lead">Брендинг у цифрових медіа, журналістські розслідування, менеджмент та організація роботи кросмедійної редакції</p>
@@ -320,7 +308,7 @@
         <div class="paste">
             <div class="mdl-grid">
                 <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone mdl-typography--text-center"></div>
-                <div class="mdl-cell mdl-cell--8-col">
+                <div class="mdl-cell mdl-cell--8-col" data-scrolly-down="blurInTop">
                     <img class="paste-icon mdl-cell--hide-tablet mdl-cell--hide-phone" src="img/quotes-icon.svg">
                     <div class="quote" style="padding-left: 60px;">Ми повинні бути впевнені, що наш досвід доступний тим, хто його потребує. Це і є наша основна мета
                         <br>— Емі Джонсон, BBVA</div>
@@ -337,7 +325,7 @@
             <div class="mdl-cell mdl-cell--7-col">
                 <h2 class="mdl-typography--text-left mdl-typography--display-2">Затребувані професії</h2>
                 <p class="mdl-typography--headline">Освоєння програми дозволяє обіймати робочі місця в медійних організаціях, інтернет-виданнях, інформаційних агенціях, редакціях газет і журналів, у відділах контент-маркетингу бізнесових організацій.</p>
-                <p class="mdl-typography--headline">Фахівець з цифрових медіа здатний обіймати керівні посади в медіаорганізаціях різних видів діяльності та форм власності:</p>
+                <p class="mdl-typography--headline">Фахівець з цифрових медіа може претендувати на керівні посади в медіаорганізаціях різних видів діяльності та форм власності:</p>
             </div>
             <div class="mdl-cell mdl-cell--4-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
             <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
@@ -376,7 +364,7 @@
         <div class="paste">
             <div class="mdl-grid">
                 <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone mdl-typography--text-center"></div>
-                <div class="mdl-cell mdl-cell--8-col">
+                <div class="mdl-cell mdl-cell--8-col" data-scrolly-down="blurInTop">
                     <img class="paste-icon-danger mdl-cell--hide-tablet mdl-cell--hide-phone" src="img/attention-icon-33.svg">
                     <div class="quote" style="padding-left: 60px;">Окремим рішенням Екзаменаційної комісії випускникові може бути присвоєна професійна кваліфікація «Редактор мультимедійних видань засобів масової комунікації»</div>
                 </div>
@@ -433,19 +421,23 @@
                 <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
                 <div class="mdl-cell mdl-cell--11-col mdl-color-text--white mdl-cell--hide-tablet mdl-cell--hide-phone"><i class="material-icons test" style="margin: 0px; font-size: 24px; padding: 4px;">access_time</i><span style="font-size: 28px; padding-left: 20px;">Терміни подачі документів  –  12–26 липня</span></div>
                 <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
-                <div class="mdl-cell mdl-cell--11-col mdl-color-text--white mdl-cell--hide-tablet mdl-cell--hide-phone"><i class="material-icons test" style="margin: 0px; font-size: 24px; padding: 4px;">touch_app</i><span style="font-size: 28px; padding-left: 20px;"><a href="">Питання до фахового вступного випробування</a></span></div>
+                <div class="mdl-cell mdl-cell--11-col mdl-color-text--white mdl-cell--hide-tablet mdl-cell--hide-phone"><i class="material-icons test" style="margin: 0px; font-size: 24px; padding: 4px;">touch_app</i><span style="font-size: 28px; padding-left: 20px;"><a href="http://www.journ.knu.ua/abit/programi-vstupnix-viprobuvan-os-magistr/" target="_blank">Питання до фахового вступного випробування</a></span></div>
                 <div class="mdl-cell mdl-cell--11-col mdl-color-text--white mdl-cell--hide-desktop mdl-typography--text-center"><i class="material-icons test" style="margin: 0px; font-size: 24px; padding: 4px;">assistant_photo</i><br><br><span style="font-size: 28px; padding-left: 20px;">Ліцензований обсяг – 20 осіб, бюджетних місць – 7</span></div>
                 <div class="mdl-cell mdl-cell--11-col mdl-color-text--white mdl-cell--hide-desktop mdl-typography--text-center"><i class="material-icons test" style="margin: 0px; font-size: 24px; padding: 4px;">access_time</i><br><br><span style="font-size: 28px; padding-left: 20px;">Терміни подачі документів  –  12–26 липня</span></div>
-                <div class="mdl-cell mdl-cell--11-col mdl-color-text--white mdl-cell--hide-desktop mdl-typography--text-center"><i class="material-icons test" style="margin: 0px; font-size: 24px; padding: 4px;">touch_app</i><br><br><span style="font-size: 28px; padding-left: 20px;"><a href="">Питання до фахового вступного випробування</a></span></div>
+                <div class="mdl-cell mdl-cell--11-col mdl-color-text--white mdl-cell--hide-desktop mdl-typography--text-center"><i class="material-icons test" style="margin: 0px; font-size: 24px; padding: 4px;">touch_app</i><br><br><span style="font-size: 28px; padding-left: 20px;"><a href="http://www.journ.knu.ua/abit/programi-vstupnix-viprobuvan-os-magistr/" target="_blank">Питання до фахового вступного випробування</a></span></div>
+                <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+                <div class="mdl-cell mdl-cell--8-col">
+                    <p class="mdl-typography--headline mdl-color-text--white">Ви можете пройти пробний вступний тест. Для цього перейдіть за посиланням нижче та введіть Room Name – DIGITALMEDIA, після чого вкажіть своє прізвище та ім'я (українською). По завершенню пробного тестування Ви побачите свій відсоток правильних відповідей.</p>
+                </div>
+                <div class="mdl-cell mdl-cell--3-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
                 <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
                 <div class="mdl-cell mdl-cell--11-col mdl-cell--hide-tablet mdl-cell--hide-phone">
-                <p></p>
-                    <button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent mdl-js-ripple-effect mdl-cell--hide-tablet mdl-cell--hide-phone">Пробний тест</button>
-                    <button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect mdl-cell--hide-tablet mdl-cell--hide-phone">Детальніше</button>
+                    <a href="https://b.socrative.com/login/student/" target="_blank"><button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent mdl-js-ripple-effect mdl-cell--hide-tablet mdl-cell--hide-phone">Пробний тест</button></a>
+                    <a href="http://www.journ.knu.ua/abit/wp-content/uploads/2018/02/digitalmedia.pdf" target="_blank"><button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect mdl-cell--hide-tablet mdl-cell--hide-phone">Детальніше</button></a>
                 </div>
                 <div class="mdl-cell mdl-cell--11-col mdl-cell--hide-desktop mdl-typography--text-center">
-                    <button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent mdl-js-ripple-effect mdl-cell--hide-desktop">Пробний тест</button>
-                    <button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect mdl-cell--hide-desktop">Детальніше</button>
+                    <a href="https://b.socrative.com/login/student/" target="_blank"><button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent mdl-js-ripple-effect mdl-cell--hide-desktop">Пробний тест</button></a>
+                    <a href="http://www.journ.knu.ua/abit/wp-content/uploads/2018/02/digitalmedia.pdf" target="_blank"><button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect mdl-cell--hide-desktop">Детальніше</button></a>
                 </div>
                 <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
                 <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
@@ -583,10 +575,10 @@
                 <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
                 <div class="mdl-cell mdl-cell--11-col mdl-color-text--white mdl-cell--hide-tablet mdl-cell--hide-phone"><i class="material-icons test" style="margin: 0px; font-size: 24px; padding: 4px;">call</i><span style="font-size: 28px; padding-left: 20px;">+ 38 (044) 481 45 86</span></div>
                 <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
-                <div class="mdl-cell mdl-cell--11-col mdl-color-text--white mdl-cell--hide-tablet mdl-cell--hide-phone"><i class="material-icons test" style="margin: 0px; font-size: 24px; padding: 4px;">email</i><span style="font-size: 28px; padding-left: 20px;">digitalmedia@gmail.com</span></div>
+                <div class="mdl-cell mdl-cell--11-col mdl-color-text--white mdl-cell--hide-tablet mdl-cell--hide-phone"><i class="material-icons test" style="margin: 0px; font-size: 24px; padding: 4px;">email</i><span style="font-size: 28px; padding-left: 20px;">victoryshe@knu.ua</span></div>
                 <div class="mdl-cell mdl-cell--11-col mdl-color-text--white mdl-typography--text-center mdl-cell--hide-desktop"><i class="material-icons test" style="margin: 0px; font-size: 24px; padding: 4px;">location_on</i><br><br><span style="font-size: 28px; padding-left: 20px;">м. Київ, вул. Мельнікова 36/1, кім. 103а</span></div>
                 <div class="mdl-cell mdl-cell--11-col mdl-color-text--white mdl-typography--text-center mdl-cell--hide-desktop"><i class="material-icons test" style="margin: 0px; font-size: 24px; padding: 4px;">call</i><br><br><span style="font-size: 28px; padding-left: 20px;">+ 38 (044) 481 45 86</span></div>
-                <div class="mdl-cell mdl-cell--11-col mdl-color-text--white mdl-typography--text-center mdl-cell--hide-desktop"><i class="material-icons test" style="margin: 0px; font-size: 24px; padding: 4px;">email</i><br><br><span style="font-size: 28px; padding-left: 20px;">digitalmedia@gmail.com</span></div>
+                <div class="mdl-cell mdl-cell--11-col mdl-color-text--white mdl-typography--text-center mdl-cell--hide-desktop"><i class="material-icons test" style="margin: 0px; font-size: 24px; padding: 4px;">email</i><br><br><span style="font-size: 28px; padding-left: 20px;">victoryshe@knu.ua</span></div>
             </div>
         </div>
     </div>
@@ -609,6 +601,7 @@
     <script src="js/common.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
     <script type="text/javascript" src="cssanimation-gsap.js"></script>
+    <script type="text/javascript" src="js/scrolly.js"></script>
     <script type="text/javascript" src="js/slick.min.js"></script>
     <script type="text/javascript" src="js/lightgallery.min.js"></script>
     <!--End of Scripts-->
@@ -661,6 +654,13 @@
         });
     </script>
     <!--End of Gallery Scripts-->
+
+    <script type="text/javascript" src="js/scrolly.js"></script>
+    <script>
+        window.onload = function() {
+            scrolly();
+        };
+    </script>
 
 </body>
 </html>
