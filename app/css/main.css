@@ -23,12 +23,12 @@
   padding-left: 20px; }
 
 .header {
-  background: -webkit-linear-gradient(to right bottom, #880e4f, #4a148c 90%), url(../img/background.jpg) no-repeat;
-  background: -webkit-gradient(linear, left top, right bottom, from(#880e4f), color-stop(90%, #4a148c)), url(../img/background.jpg) no-repeat;
-  background: -webkit-linear-gradient(left top, #880e4f, #4a148c 90%), url(../img/background.jpg) no-repeat;
-  background: -o-linear-gradient(left top, #880e4f, #4a148c 90%), url(../img/background.jpg) no-repeat;
-  background: linear-gradient(to right bottom, #880e4f, #4a148c 90%), url(../img/background.jpg) no-repeat;
-  background: -webkit-linear-gradient(to right bottom, #880e4f, #4a148c 90%), url(../img/background.jpg) no-repeat;
+  background: -webkit-linear-gradient(to right bottom, #880e4f, #4a148c 90%), url(../img/backgraund.jpeg) no-repeat;
+  background: -webkit-gradient(linear, left top, right bottom, from(#880e4f), color-stop(90%, #4a148c)), url(../img/backgraund.jpeg) no-repeat;
+  background: -webkit-linear-gradient(left top, #880e4f, #4a148c 90%), url(../img/backgraund.jpeg) no-repeat;
+  background: -o-linear-gradient(left top, #880e4f, #4a148c 90%), url(../img/backgraund.jpeg) no-repeat;
+  background: linear-gradient(to right bottom, #880e4f, #4a148c 90%), url(../img/backgraund.jpeg) no-repeat;
+  background: -webkit-linear-gradient(to right bottom, #880e4f, #4a148c 90%), url(../img/backgraund.jpeg) no-repeat;
   -webkit-background-size: cover;
           background-size: cover; }
 
@@ -124,12 +124,12 @@ video {
   background-color: white; }
 
 .block3 {
-  background: -webkit-linear-gradient(to right bottom, #880e4f, rgba(74, 20, 140, 0.6) 90%), url(../img/back4.jpg) no-repeat;
-  background: -webkit-gradient(linear, left top, right bottom, from(#880e4f), color-stop(90%, rgba(74, 20, 140, 0.6))), url(../img/back4.jpg) no-repeat;
-  background: -webkit-linear-gradient(left top, #880e4f, rgba(74, 20, 140, 0.6) 90%), url(../img/back4.jpg) no-repeat;
-  background: -o-linear-gradient(left top, #880e4f, rgba(74, 20, 140, 0.6) 90%), url(../img/back4.jpg) no-repeat;
-  background: linear-gradient(to right bottom, #880e4f, rgba(74, 20, 140, 0.6) 90%), url(../img/back4.jpg) no-repeat;
-  background: -webkit-linear-gradient(to right bottom, #880e4f, rgba(74, 20, 140, 0.6) 90%), url(../img/back4.jpg) no-repeat;
+  background: -webkit-linear-gradient(to right bottom, #880e4f, rgba(74, 20, 140, 0.6) 90%), url(../img/backgraund.jpeg) no-repeat;
+  background: -webkit-gradient(linear, left top, right bottom, from(#880e4f), color-stop(90%, rgba(74, 20, 140, 0.6))), url(../img/backgraund.jpeg) no-repeat;
+  background: -webkit-linear-gradient(left top, #880e4f, rgba(74, 20, 140, 0.6) 90%), url(../img/backgraund.jpeg) no-repeat;
+  background: -o-linear-gradient(left top, #880e4f, rgba(74, 20, 140, 0.6) 90%), url(../img/backgraund.jpeg) no-repeat;
+  background: linear-gradient(to right bottom, #880e4f, rgba(74, 20, 140, 0.6) 90%), url(../img/backgraund.jpeg) no-repeat;
+  background: -webkit-linear-gradient(to right bottom, #880e4f, rgba(74, 20, 140, 0.6) 90%), url(../img/backgraund.jpeg) no-repeat;
   -webkit-background-size: cover;
           background-size: cover;
   color: white; }
@@ -138,12 +138,12 @@ video {
   background-color: white; }
 
 .block5 {
-  background: -webkit-linear-gradient(to right bottom, #880e4f, rgba(74, 20, 140, 0.6) 90%), url(../img/back9.jpg) no-repeat;
-  background: -webkit-gradient(linear, left top, right bottom, from(#880e4f), color-stop(90%, rgba(74, 20, 140, 0.6))), url(../img/back9.jpg) no-repeat;
-  background: -webkit-linear-gradient(left top, #880e4f, rgba(74, 20, 140, 0.6) 90%), url(../img/back9.jpg) no-repeat;
-  background: -o-linear-gradient(left top, #880e4f, rgba(74, 20, 140, 0.6) 90%), url(../img/back9.jpg) no-repeat;
-  background: linear-gradient(to right bottom, #880e4f, rgba(74, 20, 140, 0.6) 90%), url(../img/back9.jpg) no-repeat;
-  background: -webkit-linear-gradient(to right bottom, #880e4f, rgba(74, 20, 140, 0.6) 90%), url(../img/back4.jpg) no-repeat;
+  background: -webkit-linear-gradient(to right bottom, #880e4f, rgba(74, 20, 140, 0.6) 90%), url(../img/gallery/ij-3.png) no-repeat;
+  background: -webkit-gradient(linear, left top, right bottom, from(#880e4f), color-stop(90%, rgba(74, 20, 140, 0.6))), url(../img/gallery/ij-3.png) no-repeat;
+  background: -webkit-linear-gradient(left top, #880e4f, rgba(74, 20, 140, 0.6) 90%), url(../img/gallery/ij-3.png) no-repeat;
+  background: -o-linear-gradient(left top, #880e4f, rgba(74, 20, 140, 0.6) 90%), url(../img/gallery/ij-3.png) no-repeat;
+  background: linear-gradient(to right bottom, #880e4f, rgba(74, 20, 140, 0.6) 90%), url(../img/gallery/ij-3.png) no-repeat;
+  background: -webkit-linear-gradient(to right bottom, #880e4f, rgba(74, 20, 140, 0.6) 90%), url(../img/gallery/ij-3.png) no-repeat;
   -webkit-background-size: cover;
           background-size: cover; }
 
@@ -154,22 +154,22 @@ video {
   background-color: white; }
 
 .block9 {
-  background: -webkit-linear-gradient(to right bottom, #880e4f, rgba(74, 20, 140, 0.7) 90%), url(../img/back5.jpg) no-repeat;
-  background: -webkit-gradient(linear, left top, right bottom, from(#880e4f), color-stop(90%, rgba(74, 20, 140, 0.7))), url(../img/back5.jpg) no-repeat;
-  background: -webkit-linear-gradient(left top, #880e4f, rgba(74, 20, 140, 0.7) 90%), url(../img/back5.jpg) no-repeat;
-  background: -o-linear-gradient(left top, #880e4f, rgba(74, 20, 140, 0.7) 90%), url(../img/back5.jpg) no-repeat;
-  background: linear-gradient(to right bottom, #880e4f, rgba(74, 20, 140, 0.7) 90%), url(../img/back5.jpg) no-repeat;
-  background: -webkit-linear-gradient(to right bottom, #880e4f, rgba(74, 20, 140, 0.7) 90%), url(../img/back5.jpg) no-repeat;
+  background: -webkit-linear-gradient(to right bottom, #880e4f, #4a148c 90%);
+  background: -webkit-gradient(linear, left top, right bottom, from(#880e4f), color-stop(90%, #4a148c));
+  background: -webkit-linear-gradient(left top, #880e4f, #4a148c 90%);
+  background: -o-linear-gradient(left top, #880e4f, #4a148c 90%);
+  background: linear-gradient(to right bottom, #880e4f, #4a148c 90%);
+  background: -webkit-linear-gradient(to right bottom, #880e4f, #4a148c 90%);
   -webkit-background-size: cover;
           background-size: cover; }
 
 .block11 {
-  background: -webkit-linear-gradient(to right bottom, #880e4f, rgba(74, 20, 140, 0.7) 90%), url(../img/back9.jpg) no-repeat;
-  background: -webkit-gradient(linear, left top, right bottom, from(#880e4f), color-stop(90%, rgba(74, 20, 140, 0.7))), url(../img/back9.jpg) no-repeat;
-  background: -webkit-linear-gradient(left top, #880e4f, rgba(74, 20, 140, 0.7) 90%), url(../img/back9.jpg) no-repeat;
-  background: -o-linear-gradient(left top, #880e4f, rgba(74, 20, 140, 0.7) 90%), url(../img/back9.jpg) no-repeat;
-  background: linear-gradient(to right bottom, #880e4f, rgba(74, 20, 140, 0.7) 90%), url(../img/back9.jpg) no-repeat;
-  background: -webkit-linear-gradient(to right bottom, #880e4f, rgba(74, 20, 140, 0.7) 90%), url(../img/back9.jpg) no-repeat;
+  background: -webkit-linear-gradient(to right bottom, #880e4f, #4a148c 90%);
+  background: -webkit-gradient(linear, left top, right bottom, from(#880e4f), color-stop(90%, #4a148c));
+  background: -webkit-linear-gradient(left top, #880e4f, #4a148c 90%);
+  background: -o-linear-gradient(left top, #880e4f, #4a148c 90%);
+  background: linear-gradient(to right bottom, #880e4f, #4a148c 90%);
+  background: -webkit-linear-gradient(to right bottom, #880e4f, #4a148c 90%);
   -webkit-background-size: cover;
           background-size: cover; }
 
