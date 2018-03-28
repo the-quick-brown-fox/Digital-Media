@@ -2,6 +2,7 @@
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
+    <meta property="og:image" content="img/dm-face.jpg" />
     <title>Цифрові медіа</title>
     <link rel="stylesheet" href="css/material.min.css">
     <script src="js/material.min.js"></script>
@@ -14,13 +15,31 @@
     <link rel="stylesheet" type="text/css" href="css/slick.css"/>
     <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
     <link rel="stylesheet" type="text/css" href="css/lightgallery.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullpage.min.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
 </head>
 
 <body>
 
+    <!--This is Navigation-->
+    <nav id="mainnav mdl-cell--hide-tablet mdl-cell--hide-phone">
+        <ul class="dotnav dotnav-vertical dotnav-right nav mdl-cell--hide-tablet mdl-cell--hide-phone">
+            <li class="awesome-tooltip" title="Початок"><a href="#hero"></a></li>
+            <li class="awesome-tooltip" title="Для кого"><a href="#about"></a></li>
+            <li class="awesome-tooltip" title="Переваги програми"><a href="#advantages"></a></li>
+            <li class="awesome-tooltip" title="Структура програми"><a href="#structure"></a></li>
+            <li class="awesome-tooltip" title="Дисципліни"><a href="#disciplines"></a></li>
+            <li class="awesome-tooltip" title="Партнери"><a href="#partners"></a></li>
+            <li class="awesome-tooltip" title="Професії"><a href="#profession"></a></li>
+            <li class="awesome-tooltip" title="Умови навчання"><a href="#study"></a></li>
+            <li class="awesome-tooltip" title="Умови вступу"><a href="#terms"></a></li>
+            <li class="awesome-tooltip" title="Реєстрація"><a href="#registration"></a></li>
+        </ul>
+    </nav>
+    <!--End of Navigation-->
+
     <!--This is Header-->
-    <section class="hero">
+    <section class="hero" id="hero">
         <div class="hero-text">
             <div class="mdl-grid">
                 <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone mdl-typography--text-center"></div>
@@ -29,7 +48,7 @@
                     <h2 class="mdl-typography--display-3 mdl-color-text--white">Цифрові медіа</h2>
                     <h2 class="mdl-typography--display-1 mdl-color-text--white">Магістерська програма Інституту журналістики <br>Київського національного університету iмені Тараса Шевченка</h2>
                     <a href="#registration"><button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent mdl-js-ripple-effect">Реєстрація</button></a>
-                    <a href="#structure"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">Зміст програми</button></a>
+                    <a href="#structure"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-cell--hide-tablet mdl-cell--hide-phone">Зміст програми</button></a>
                     <a href="#paste"><div class="cssanimation hu__hu__"><h2 class="mdl-typography--display-1 mdl-color-text--white"><img src="img/arrow-down.svg" class="down mdl-cell--hide-tablet mdl-cell--hide-phone"></h2></div></a>
                     <style>
                         .hu__hu__ { animation: hu__hu__ infinite 2s ease-in-out }
@@ -42,7 +61,7 @@
             </div>
         </div>
         <div class="video-overlay"></div>
-        <video class="hero-video" height="330" preload="" loop="" autoplay="" muted="muted">
+        <video class="hero-video mdl-cell--hide-tablet mdl-cell--hide-phone"  preload="" loop="" autoplay="" muted="muted">
             <source src="img/retrowave.mp4" type="video/mp4">
         </video>
     </section>
@@ -60,7 +79,7 @@
     <!--End of Header-->
 
     <!--This is Block 1-->
-    <div class="block2" id="block2">
+    <div class="block2" id="about">
         <div class="mdl-grid">
             <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
             <div class="mdl-cell mdl-cell--6-col">
@@ -79,7 +98,7 @@
     <!--End of Block 1-->
 
     <!--This is Block 3-->
-    <div class="block3" id="block3">
+    <div class="block3" id="advantages">
         <div class="quote-background" style="padding-top: 1px; padding-bottom: 1px;">
         <div class="mdl-grid">
             <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
@@ -284,7 +303,7 @@
     <!--End of Block 5-->
 
     <!--This is Block 6-->
-    <div class="mdl-grid mdl-typography--text-center block-padding">
+    <div class="mdl-grid mdl-typography--text-center block-padding" id="partners">
         <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
         <div class="mdl-cell mdl-cell--10-col mdl-color-text--black">
             <h2 class="mdl-typography--text-left mdl-typography--display-2">Партнери та бази практики</h2>
@@ -319,7 +338,7 @@
     <!--End of Quote-->
 
     <!--This is Block 7-->
-    <div class="block7 block-padding">
+    <div class="block7 block-padding" id="profession">
         <div class="mdl-grid">
             <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
             <div class="mdl-cell mdl-cell--7-col">
@@ -374,7 +393,7 @@
     <!--End of Quote-->
 
     <!--This is Block 8-->
-    <div class="block8 block-padding">
+    <div class="block8 block-padding" id="study">
         <div class="mdl-grid">
             <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
             <div class="mdl-cell mdl-cell--7-col">
@@ -385,6 +404,9 @@
         </div>
         <div class="mdl-grid mdl-typography--text-center">
         <div id="animated-thumbnials">
+            <a href="img/gallery/ij-23.jpg">
+                <img src="img/gallery/ij-23.jpg" class="mdl-cell--2-col" style="padding-bottom: 4px;"/>
+            </a>
             <a href="img/gallery/ij-12.jpeg">
                 <img src="img/gallery/ij-12.jpeg" class="mdl-cell--2-col" style="padding-bottom: 4px;"/>
             </a>
@@ -412,17 +434,19 @@
             <a href="img/gallery/ij-20.jpg">
                 <img src="img/gallery/ij-20.jpg" class="mdl-cell--2-col" style="padding-bottom: 4px;"/>
             </a>
-            <a href="img/gallery/ij-11.jpeg">
+            <a href="img/gallery/ij-21.jpg">
                 <img src="img/gallery/ij-11.jpeg" class="mdl-cell--2-col" style="padding-bottom: 4px;"/>
             </a>
-
+            <a href="img/gallery/ij-22.jpg">
+                <img src="img/gallery/ij-22.jpg" class="mdl-cell--2-col" style="padding-bottom: 4px;"/>
+            </a>
         </div>
     </div>
     </div>
     <!--End of Block8-->
 
     <!--This is Block 9-->
-    <div class="block9">
+    <div class="block9" id="terms">
         <div class="quote-background" style="padding-top: 1px; padding-bottom: 15px;">
             <div class="mdl-grid">
                 <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
@@ -439,19 +463,19 @@
                 <div class="mdl-cell mdl-cell--11-col mdl-color-text--white mdl-cell--hide-desktop mdl-typography--text-center"><i class="material-icons test" style="margin: 0px; font-size: 24px; padding: 4px;">access_time</i><br><br><span style="font-size: 28px; padding-left: 20px;">Терміни подачі документів  –  12–26 липня</span></div>
                 <div class="mdl-cell mdl-cell--11-col mdl-color-text--white mdl-cell--hide-desktop mdl-typography--text-center"><i class="material-icons test" style="margin: 0px; font-size: 24px; padding: 4px;">touch_app</i><br><br><span style="font-size: 28px; padding-left: 20px;"><a href="http://www.journ.knu.ua/abit/wp-content/uploads/2018/02/digitalmedia.pdf" target="_blank">Питання до фахового вступного випробування</a></span></div>
                 <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
-                <div class="mdl-cell mdl-cell--8-col">
-                    <p class="mdl-typography--headline mdl-color-text--white">Зацікавились? Пройдіть пробний тест. <br>Для цього перейдіть за посиланням нижче та введіть Room Name – DIGITALMEDIA, після чого вкажіть своє прізвище та ім'я (українською). По завершенню пробного тестування Ви побачите свій відсоток правильних відповідей.</p>
-                </div>
-                <div class="mdl-cell mdl-cell--3-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
-                <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
                 <div class="mdl-cell mdl-cell--11-col mdl-cell--hide-tablet mdl-cell--hide-phone">
-                    <a href="https://b.socrative.com/login/student/" target="_blank"><button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent mdl-js-ripple-effect mdl-cell--hide-tablet mdl-cell--hide-phone">Пробний тест</button></a>
                     <a href="http://www.journ.knu.ua/abit/" target="_blank"><button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect mdl-cell--hide-tablet mdl-cell--hide-phone">Детальніше</button></a>
                 </div>
                 <div class="mdl-cell mdl-cell--11-col mdl-cell--hide-desktop mdl-typography--text-center">
-                    <a href="https://b.socrative.com/login/student/" target="_blank"><button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent mdl-js-ripple-effect mdl-cell--hide-desktop">Пробний тест</button></a>
                     <a href="http://www.journ.knu.ua/abit/" target="_blank"><button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect mdl-cell--hide-desktop">Детальніше</button></a>
                 </div>
+                <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+                <div class="mdl-cell mdl-cell--10-col">
+                    <p class="mdl-typography--headline mdl-color-text--white">Зацікавились? Пройдіть пробний тест. Для цього у формі нижче введіть Room Name – DIGITALMEDIA, після чого вкажіть своє прізвище та ім'я (українською). По завершенню пробного тестування Ви побачите свій відсоток правильних відповідей.</p>
+                </div>
+                <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+                <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+                <iframe src="https://b.socrative.com/login/student/" class="mdl-cell--10-col" style="height: 620px; margin: 10px;"></iframe>
                 <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
                 <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
             </div>
@@ -584,12 +608,12 @@
                     <h2 class="mdl-typography--text-left mdl-typography--display-2">Контакти</h2>
                 </div>
                 <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
-                <div class="mdl-cell mdl-cell--11-col mdl-color-text--white mdl-cell--hide-tablet mdl-cell--hide-phone"><i class="material-icons test" style="margin: 0px; font-size: 24px; padding: 4px;">location_on</i><span style="font-size: 28px; padding-left: 20px;">м. Київ, вул. Мельнікова 36/1, кім. 103а</span></div>
+                <div class="mdl-cell mdl-cell--11-col mdl-color-text--white mdl-cell--hide-tablet mdl-cell--hide-phone"><i class="material-icons test" style="margin: 0px; font-size: 24px; padding: 4px;">location_on</i><span style="font-size: 28px; padding-left: 20px;">м. Київ, вул. Мельникова 36/1, кім. 103а</span></div>
                 <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
                 <div class="mdl-cell mdl-cell--11-col mdl-color-text--white mdl-cell--hide-tablet mdl-cell--hide-phone"><i class="material-icons test" style="margin: 0px; font-size: 24px; padding: 4px;">call</i><span style="font-size: 28px; padding-left: 20px;">+ 38 (044) 481 45 86</span></div>
                 <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
                 <div class="mdl-cell mdl-cell--11-col mdl-color-text--white mdl-cell--hide-tablet mdl-cell--hide-phone"><i class="material-icons test" style="margin: 0px; font-size: 24px; padding: 4px;">email</i><span style="font-size: 28px; padding-left: 20px;">journdigital@gmail.com </span></div>
-                <div class="mdl-cell mdl-cell--11-col mdl-color-text--white mdl-typography--text-center mdl-cell--hide-desktop"><i class="material-icons test" style="margin: 0px; font-size: 24px; padding: 4px;">location_on</i><br><br><span style="font-size: 28px; padding-left: 20px;">м. Київ, вул. Мельнікова 36/1, кім. 103а</span></div>
+                <div class="mdl-cell mdl-cell--11-col mdl-color-text--white mdl-typography--text-center mdl-cell--hide-desktop"><i class="material-icons test" style="margin: 0px; font-size: 24px; padding: 4px;">location_on</i><br><br><span style="font-size: 28px; padding-left: 20px;">м. Київ, вул. Мельникова 36/1, кім. 103а</span></div>
                 <div class="mdl-cell mdl-cell--11-col mdl-color-text--white mdl-typography--text-center mdl-cell--hide-desktop"><i class="material-icons test" style="margin: 0px; font-size: 24px; padding: 4px;">call</i><br><br><span style="font-size: 28px; padding-left: 20px;">+ 38 (044) 481 45 86</span></div>
                 <div class="mdl-cell mdl-cell--11-col mdl-color-text--white mdl-typography--text-center mdl-cell--hide-desktop"><i class="material-icons test" style="margin: 0px; font-size: 24px; padding: 4px;">email</i><br><br><span style="font-size: 28px; padding-left: 20px;">journdigital@gmail.com </span></div>
             </div>
@@ -602,7 +626,7 @@
         <div class="mdl-grid">
             <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
             <div class="demo-content content mdl-cell mdl-cell--10-col">
-                <p>©  2018 «Інститут журналістики Київського національного університету імені Тараса Шевченка». All rights reserved.</p>
+                <p>©  2018 Інститут журналістики Київського національного університету імені Тараса Шевченка. All rights reserved.</p>
             </div>
             <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
         </div>
@@ -621,13 +645,14 @@
     <!--This is Partners Script-->
     <script>
         $('.sliders').slick({
-            dots: false,
+            dots: true,
             infinite: true,
+            arrows: false,
             autoplay: true,
-            autoplaySpeed: 9000,
-            speed: 300,
+            autoplaySpeed: 200,
+            speed: 1800,
             slidesToShow: 4,
-            slidesToScroll: 4,
+            slidesToScroll: 1,
             responsive: [
                 {
                     breakpoint: 1024,
